@@ -12,5 +12,5 @@ blocks:
           commands:
             - '"deploying using key $API_KEY"'
       env_vars:
-        - name: '123'
-          value: BAR_1
+        - name: API_KEY
+          value: '123'
