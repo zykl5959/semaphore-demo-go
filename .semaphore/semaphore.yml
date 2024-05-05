@@ -83,6 +83,6 @@ blocks:
 after_pipeline:
   task:
     jobs:
-      - name: Publish Results
+      - name: Publish Result
         commands:
           - test-results gen-pipeline-report
